@@ -1,8 +1,7 @@
 const Promise = require('promise');
 
 const longOperationPromise = new Promise(function(resolve, reject){
-    setTimeout(function() {
-        console.log("long operation executing ....")
+    setTimeout(function() {        
         resolve ("500 ms passed");
       }, 500);
 });

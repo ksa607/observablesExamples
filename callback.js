@@ -1,6 +1,5 @@
 function longAsyncOperation(callback) {
     setTimeout(function() {
-        console.log("timeout passed ....")
         return callback("500 ms passed");
       }, 500);
   }
